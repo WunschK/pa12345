@@ -1,4 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/dariok/wdbmeta/master/wdbmeta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><projectMD xmlns="https://github.com/dariok/wdbplus/wdbmeta" xml:id="pa012345">
+<?xml-model href="https://raw.githubusercontent.com/dariok/wdbmeta/master/wdbmeta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<projectMD xmlns="https://github.com/dariok/wdbplus/wdbmeta" xml:id="pa012345">
     <projectID/>
     <titleData>
         <title type="main">Test</title>
@@ -7,7 +8,9 @@
         <place/>
         <language/>
         <type/>
-    <title type="sub">test</title><date>1-3</date></titleData>
+    <title type="sub">test</title>
+        <date>1-3</date>
+    </titleData>
     <metaData>
         <contentGroup>
             <content>
@@ -18,11 +21,16 @@
         <involvement/>
         <legal>
             <licence content=""/>
-        <licence>ccby40</licence></legal>
+        <licence>ccby40</licence>
+        </legal>
     </metaData>
-    <files/>
+    <files>
+    <!-- Testen sollten wir das ganze auch inkrementell -->
+    </files>
     <process target="">
         <command type=""/>
     </process>
-    <struct><ptr path="../wdbmeta.xml"/></struct>
+    <struct>
+        <ptr path="../wdbmeta.xml"/>
+    </struct>
 </projectMD>
