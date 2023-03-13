@@ -1,0 +1,23 @@
+{
+    "servers": {
+        "localhost": {
+            "server": "http://localhost:8080/exist",
+            "user": "admin",
+            "password": "RsAczx8X",
+            "root": "/db/apps/edoc/data/pa012345"
+        }
+    },
+    "sync": {
+        "server": "localhost",
+        "ignore": [
+            ".existdb.json",
+            ".git/**",
+            "node_modules/**",
+            "bower_components/**",
+            "package*.json",
+            ".vscode/**"
+        ],
+        "polling": false,
+        "interval": 100
+    }
+}
