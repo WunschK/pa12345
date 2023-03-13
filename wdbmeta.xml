@@ -28,6 +28,7 @@
     <!-- Testen sollten wir das ganze auch inkrementell -->
         
         <p> Warum auch immer - inkrementell funktioniert es nicht </p>
+        <p> oder liegt es an den Verzeichnissen innerhalb v. edoc </p>
     </files>
     <process target="">
         <command type=""/>
